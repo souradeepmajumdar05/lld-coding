@@ -1,0 +1,18 @@
+get sde_bootcamp
+put sde_bootcamp title SDE-Bootcamp price 30000.00 enrolled false estimated_time 30
+put sde_bootcamp_uouo title SDE-Bootcamp price hello enrolled false estimated_time 30
+delete sde_bootcamp
+search title SDE-Bootcamp
+keys
+exit
+
+
+/***************
+expected output
+
+No entry found for : get sde_bootcamp
+Data added successfully
+Data added successfully
+key:sde_bootcamp , removed successfully
+sde_bootcamp_uouo
+sde_bootcamp_uouo
